@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kami no Mori</title>
+
+    <!--Customização CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <!--Font Awesone-->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> 
+    
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!--Compatibilidade shiv HTML5-->
+    <!--[if lt IE 9]>
+	    <script src="html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+     
+    <header>  <!--Cabeçalho-->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">  <!--navegação-->
+            <div class="container"> <!--container-->
+
+                <a href="index.html" class="navbar-brand">  <!--logo-->
+                    <img src="img/logo.png" width="50">   
+                </a>                                     <!--Logo-->
+
+                 <!--Inicio menu hamburguer-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                    <i class="fas fa-bars text-white"></i>
+                </button> 
+                 <!--fim menu hamburguer-->                   
+
+                <div class="collapse navbar-collapse" id="nav-target">  <!--Inicio Barra de navegação-->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="sobre.html" target="_self" rel="prev" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portifolio.html" target="_self" rel="prev" class="nav-link">Portifófio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contato.html" target="_self" rel="prev" class="nav-link">Contato</a>
+                        </li>   
+                                                                                         
+                    </ul>
+                </div>                                                     <!--Fim Barra de navegação-->
+            </div>  <!--container-->
+        </nav> <!--navegação-->
+    </header> <!--Cabeçalho-->
+
+    <article id="home" class="d-flex">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-md-6">                
+                        <h1 class="animate__animated animate__slideInUp">Kami no Mori</h1>
+                        <h3 class="animate__animated animate__slideInUp">Transformando suas idéias em mobiliário</h3>                                    
+                </div>
+                
+                <div class="col-md-5 d-none d-md-block">
+                    <a>
+                    <img class="animate__animated animate__slideInDown  img-fluid" src="img/komi.png">
+                    </a>    
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <section id="caracteristicas">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/qualidade_novo_2_n.jpg"class="img-fluid">
+                    <h4 class="titulo-conteudo">Qualidade</h4>
+                    <p class="paragrafo-conteudo">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, tempore natus distinctio asperiores amet et explicabo molestias culpa delectus alias exercitationem, quibusdam consectetur quia ab dignissimos? Deleniti ducimus soluta possimus.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/pontualidade_novo_2_n.jpg" class="img-fluid">
+                    <h4>Pontualidade</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facere, praesentium illum eius eum incidunt quasi amet molestias commodi inventore fugiat aperiam dicta odio rerum quia qui possimus iusto. Itaque.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/custo_novo_1_n.jpg" class="img-fluid">
+                    <h4>Custo Benefício</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsa earum, voluptate rem delectus dolores itaque velit deserunt, cupiditate facilis fuga vitae atque, magni id numquam fugiat! Harum, vel accusantium.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="rodape"> <!--roda-pé-->
+        <nav class="navbar navbar-expand-md navbar-light"> 
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="sobre.html" target="_self" rel="prev" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portifolio.html" target="_self" rel="prev" class="nav-link">Portifófio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contato.html" target="_self" rel="prev" class="nav-link">Contato</a>
+                        </li>                                                                                           
+                    </ul>
+                </div>
+                
+                <div>
+                    <a href="https://www.facebook.com/MORI.kamino" target="_blank" rel="prev" class="btn btn-outline-dark ml-1" style=" color: #144474; border-color: #144474;">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/kamino.mori/" target="_blank" rel="prev" class="btn btn-outline-dark ml-1" style=" color: #144474; border-color: #144474;">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5521970212072" target="_blank" rel="prev" class="btn btn-outline-dark ml-1" style=" color: #144474; border-color: #144474;">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>                    
+                </div>
+            </div>
+        </nav> 
+        
+        <div class="direitos">
+            <p>Todos os Direitos reservados a Kami no Mori &copy;</p>
+        </div>
+    </footer> <!--fim roda-pé-->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kami no Mori</title>
+
+    <!--Customização CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <!--Font Awesone-->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+    <!--Compatibilidade shiv HTML5-->
+    <!--[if lt IE 9]>
+	    <script src="html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+     
+    <header>  <!--Cabeçalho-->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">  <!--navegação-->
+            <div class="container"> <!--container-->
+
+                <a href="index.html" class="navbar-brand">  <!--logo-->
+                    <img src="img/logo.png" width="50">   
+                </a>                                     <!--Logo-->
+
+                 <!--Inicio menu hamburguer-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                    <i class="fas fa-bars text-white"></i>
+                </button> 
+                 <!--fim menu hamburguer-->                   
+
+                <div class="collapse navbar-collapse" id="nav-target">  <!--Inicio Barra de navegação-->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="sobre.html" target="_self" rel="prev" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="portifolio.html" target="_self" rel="prev" class="nav-link">Portifófio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contato.html" class="nav-link">Contato</a>
+                        </li>   
+                                                                                         
+                    </ul>
+                </div>                                                       <!--Fim Barra de navegação-->
+            </div>  <!--container-->
+        </nav> <!--navegação-->
+    </header> <!--Cabeçalho-->
+
+    <section id="carrosel" class="d-flex conteudo2">
+        <div class="container"> <!--container-->
+
+            <div class="row"> <!--row-->
+                
+                <div class="col-md-6 animate__animated animate__fadeInLeft" style="padding-top: 130px;">                                   
+                    <h1>Conheça um pouco do nosso Portifófio</h1>
+                                                
+                
+                </div>
+
+                <div class="col-md-6 m-auto">
+                                          
+                        <div id="carousel-controles3" class="carousel slide carousel-fade" data-ride="carousel"> 
+                            <!--indicadores-->
+                              <ol class="carousel-indicators">
+                
+                                <li data-target="#carousel-controles3" data-slide-to="0"></li>
+                                <li data-target="#carousel-controles3" data-slide-to="1"></li>
+                                <li data-target="#carousel-controles3" data-slide-to="2"></li>
+                
+                              </ol>
+                            <!--indicadores-->
+                            <div class="carousel-inner"> <!--inner-->
+                
+                              <div class="carousel-item active alinhamento">
+                                <img style="height: 350px; width: 100%; " src="img/produto novos/cadeira.jpg" class="img-fluid">
+                                <div class="carousel-caption">
+                                  <h3>Cadeira Krat</h3>
+                                  <p>Apenas R$ 359,00</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item alinhamento">
+                                <img style="height: 350px; width: 100%; " src="img/produto novos/cozinha_nova.jpg"  class="img-fluid">
+                                <div class="carousel-caption">
+                                  <h3>Cozinha Planejada</h3>
+                                  <p>Apenas R$ ?????</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item alinhamento">
+                                <img style="height: 350px; width: 100%; " src="img/produto novos/sapateira_novo.jpg" class="img-fluid">
+                                <div class="carousel-caption">
+                                  <h3>Banco Sapateira</h3>
+                                  <p>Apenas R$ 169,00</p>
+                                </div>
+                              </div>
+                
+                            </div> <!--inner-->
+                
+                            <!--controles-->
+                            <a href="#carousel-controles3" class="carousel-control-prev" data-slide="prev">
+                                <i class="fas fa-arrow-circle-left text-success fa-3x"></i>
+                            </a>
+                            <a href="#carousel-controles3" class="carousel-control-next" data-slide="next">
+                              <i class="fas fa-arrow-circle-right text-success fa-3x"></i>
+                            </a>
+                            <!--controles-->
+                            
+                        </div> <!--Carousel-->
+                    
+                </div>
+            </div> <!--row-->
+
+
+        </div> <!--container-->
+
+    </section>
+    
+    <section id="fotos" class="d-flex">
+        <div class="container"> <!--container-->
+            <div class="row ajustes mb-2 mt-2 caixa-fixa"> <!--1ªrow-->
+                <div class="col-md-3 transtionSize">   <!--sobra em foto-->                 
+                    <img src="img/produto novos/banheiro.jpg" class=" img-fluid">                 
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Cômoda
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>  <!--sobra em foto-->                 
+                <div class="col-md-3 transtionSize">                    
+                    <img src="img/produto novos/cadeira.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Cadeira Krat
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>
+                <div class="col-md-3 transtionSize">                    
+                    <img src="img/produto novos/comidagato.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Comedouro de Animais
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>
+                <div class="col-md-3 transtionSize">                    
+                    <img src="img/produto novos/suportebanheiro.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Suporte para Toalhas
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>                
+            </div> <!--row-->
+
+            <div class="row ajustes mb-2 mt-2 caixa-fixa"> <!--2ªrow-->
+                <div class="col-md-3 transtionSize">   <!--sobra em foto-->                 
+                    <img src="img/produto novos/sapateira2.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Sapateira
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>  <!--sobra em foto-->                 
+                <div class="col-md-3 transtionSize">                    
+                    <img src="img/produto novos/comoda2.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Armário para Escritório
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>
+                <div class="col-md-3 transtionSize">                    
+                    <img src="img/produto novos/criadomudo3.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Mesa cabeceira
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>
+                <div class="col-md-3 transtionSize">                    
+                    <img src="img/produto novos/mesapc.jpg" class="img-fluid"> 
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Mesa de Parede
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>                
+            </div> <!--2row-->
+
+            <div class="row ajustes mb-2 mt-2 caixa-fixa"> <!--3ªrow-->
+                <div class="col-md-3 transtionSize">   <!--sobra em foto-->                 
+                    <img src="img/produto novos/parede1.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Prateleiras Horizontal
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>  <!--sobra em foto-->                 
+                <div class="col-md-3 transtionSize">                    
+                    <img src="img/produto novos/parede2.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Prateleiras Uver
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>
+                <div class="col-md-3 transtionSize">                    
+                    <img src="img/produto novos/parede3.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Nichos tipo C
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>
+                <div class="col-md-3 transtionSize">                    
+                    <img src="img/produto novos/parede4.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Nichos
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>                
+            </div> <!--3row-->
+
+            <div class="row ajustes mb-2 mt-2 caixa-fixa"> <!--4ªrow-->
+                <div class="col-md-3 transtionSize">   <!--sobra em foto-->                 
+                    <img src="img/produto novos/jardim suspenso.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Jardim Suspenso
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>  <!--sobra em foto-->                 
+                <div class="col-md-3 transtionSize">                    
+                    <img src="img/produto novos/organizadoe de livros.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Organizador de Livros
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>
+                <div class="col-md-3 transtionSize">                    
+                    <img src="img/produto novos/cozinha.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Cozinha Planejada
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>
+                <div class="col-md-3 transtionSize">                    
+                    <img src="img/produto novos/placa decorativa.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="sombra sombra-transition">
+                            <div class="titulo">
+                                <div class="font-weight-bold" style="color: #fff; font-size: 1em;">
+                                    Placas Decorativa
+                                </div>                                
+                            </div>
+                        </div>
+                    </a>                    
+                </div>                
+            </div> <!--4row-->
+
+
+        </div><!--container-->      
+        
+    </section>
+    
+    
+
+    <footer id="rodape"> <!--roda-pé-->
+        <nav class="navbar navbar-expand-md navbar-light"> 
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="sobre.html" target="_self" rel="prev" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="portifolio.html" target="_self" rel="next" class="nav-link">Portifófio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contato.html" target="_self" rel="next" class="nav-link">Contato</a>
+                        </li>   
+                                                                                          
+                    </ul>
+                </div>
+                
+                <div>
+                    <a href="https://www.facebook.com/MORI.kamino" target="_blank" rel="prev" class="btn btn-outline-dark ml-1" style=" color: #144474; border-color: #144474;">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/kamino.mori/" target="_blank" rel="prev" class="btn btn-outline-dark ml-1" style=" color: #144474; border-color: #144474;">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5521970212072" target="_blank" rel="prev" class="btn btn-outline-dark ml-1" style=" color: #144474; border-color: #144474;">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>                    
+                </div>
+            </div>
+        </nav> 
+        
+        <div class="direitos">
+            <p>Todos os Direitos reservados a Kami no Mori &copy;</p>
+        </div>
+    </footer> <!--fim roda-pé-->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>

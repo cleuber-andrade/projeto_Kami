@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kami no Mori</title>
+
+    <!--Customização CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <!--Font Awesone-->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+    <!--Compatibilidade shiv HTML5-->
+    <!--[if lt IE 9]>
+	    <script src="html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+     
+    <header>  <!--Cabeçalho-->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">  <!--navegação-->
+            <div class="container"> <!--container-->
+
+                <a href="index.html" class="navbar-brand">  <!--logo-->
+                    <img src="img/logo.png" width="50">   
+                </a>                                     <!--Logo-->
+
+                 <!--Inicio menu hamburguer-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                    <i class="fas fa-bars text-white"></i>
+                </button> 
+                 <!--fim menu hamburguer-->                   
+
+                <div class="collapse navbar-collapse" id="nav-target">  <!--Inicio Barra de navegação-->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="sobre.html" target="_self" rel="prev" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portifolio.html" target="_self" rel="next" class="nav-link">Portifófio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contato.html" target="_self" rel="next" class="nav-link">Contato</a>
+                        </li>   
+                                                                                          
+                    </ul>
+                </div>                                                       <!--Fim Barra de navegação-->
+            </div>  <!--container-->
+        </nav> <!--navegação-->
+    </header> <!--Cabeçalho-->
+
+    <section class="d-flex conteudo">
+        <div class="container">
+
+            <div class="row mt-4">
+                <div class="col-md-1">
+                <img src="img/komi.png" width="60">
+                </div>
+
+                <div class="col-md-11 mb-4">
+                <h1 class="display-4">Sobre Nós</h1>  
+                </div>                         
+            </div>
+
+            <div class="row mt-4 mb-1 foto">                
+                <div class="col-md-6 mb-3">
+                    <img class="animate__animated animate__fadeInLeft" src="img/japa e gui.jpg" width="300"  style="border: 10px solid rgba(20, 68, 116, 0.664);border-radius: 25px;">
+                </div>
+                <div class="col-md-6">
+                    <h4>Guilherme Ethiataru</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eos voluptatibus aut ipsa. Corporis minima placeat qui similique blanditiis autem neque, tempora distinctio deleniti saepe alias doloremque rem ex illo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, fugit voluptas veniam autem provident, quibusdam itaque ad corrupti, incidunt tempore quae similique alias vero nihil. Quis optio molestias earum dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quae voluptate suscipit velit exercitationem vel voluptates maxime iste porro, ex doloremque expedita molestias veritatis asperiores, debitis aperiam nisi alias blanditiis?
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-4 mb-4 foto">
+                <div class="col-md-6">
+                    <h4>Andreza Ethiataru</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, tenetur repellendus! Earum iusto quo tempore, odio labore repellendus reprehenderit tenetur quam debitis, non harum assumenda eaque nostrum necessitatibus excepturi eligendi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi explicabo, ad optio consequuntur quod consectetur at porro, laudantium repudiandae fuga nostrum a provident obcaecati perferendis aspernatur omnis blanditiis laborum molestias!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere cum quam totam dolorum reprehenderit laborum molestias inventore. Fuga eveniet suscipit aliquam totam voluptatem rerum. Maiores aliquam qui dignissimos sint?
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img class="animate__animated animate__fadeInRight" src="img/japa e gui.jpg" width="300" style="border: 10px solid rgba(20, 68, 116, 0.664); border-radius: 25px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="rodape"> <!--roda-pé-->
+        <nav class="navbar navbar-expand-md navbar-light"> 
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a href="sobre.html" target="_self" rel="prev" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portifolio.html" target="_self" rel="next" class="nav-link">Portifófio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contato.html" target="_self" rel="next" class="nav-link">Contato</a>
+                        </li>   
+                                                                                          
+                    </ul>
+                </div>
+                
+                <div>
+                    <a href="https://www.facebook.com/MORI.kamino" target="_blank" rel="prev" class="btn btn-outline-dark ml-1" style=" color: #144474; border-color: #144474;">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/kamino.mori/" target="_blank" rel="prev" class="btn btn-outline-dark ml-1" style=" color: #144474; border-color: #144474;">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5521970212072" target="_blank" rel="prev" class="btn btn-outline-dark ml-1" style=" color: #144474; border-color: #144474;">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>                    
+                </div>
+            </div>
+        </nav> 
+        
+        <div class="direitos">
+            <p>Todos os Direitos reservados a Kami no Mori &copy;</p>
+        </div>
+    </footer> <!--fim roda-pé-->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,341 @@
+@charset "UTF-8";
+
+/*geral*/
+
+html, body{    
+    height: 100%;
+    margin: 0;       
+    overflow-x: hidden;    
+}
+
+ body{
+    background: url(img/green-2331368_1280\ 2.jpg);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;    
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;                        
+
+}
+/*menu*/
+
+nav.navbar-transparente{
+    background: rgb(165, 198, 143, 0.7);
+    
+}
+
+nav.navbar-light .navbar-nav .nav-link{
+    color: #fff;    
+    font-weight: bold;
+    padding-right: 25px;
+}
+
+nav.navbar-light .navbar-nav .nav-link:hover{
+    color: #144474;
+    transition: 1s;
+    transform: rotatex(360deg);    
+}
+
+nav.navbar-light .navbar-toggler {
+    color:rgba(255,255,255, 0.5);
+    border-color: rgba(255,255,255, 0.5);
+    font-weight: bold;
+}
+
+/*capa*/
+
+#home{
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 240px;
+}
+
+/*caracteristicas*/
+
+#caracteristicas{
+    background: #fff;
+    padding: 10px 5px;
+}
+
+.conteudo{
+    background-color: white;
+    margin-top: 80px;    
+}
+
+.conteudo2{
+    margin-top: 130px;
+}
+
+section.conteudo .foto img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*portifólio*/
+
+
+section#carrosel .alinhamento img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+      
+}
+
+/*fotos*/
+
+.titulo{
+    margin-top: 190px;
+    margin-right: 10px;
+      
+
+}
+
+#fotos{
+    margin: 25px 0;    
+    cursor: pointer;    
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+/*efeito aumentar tamanho*/
+.caixa-fixa{
+    cursor: unset;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;    
+}
+
+section#fotos .ajustes .transtionSize{
+   transition: 1s;     
+                
+}
+
+section#fotos .ajustes .transtionSize:hover{
+    transform: scale(1.1);    
+
+}
+
+
+
+/* Sombra em foto*/
+
+.sombra {
+    width: 100%;        
+    background: transparent;
+    position: absolute;
+    height: 100%;    
+    top: 0;
+    -moz-box-shadow: inset 0px -63px 20px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: inset 0px -63px 20px 0px rgba(0 0 0 / 25%);
+    box-shadow: inset 0px -45px 25px 0px rgba(0 0 0 / 25%);    
+    
+}
+
+.sombra:hover {
+    background: rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0px -63px 20px 0px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: inset 0px -63px 20px 0px rgba(0 0 0 / 45%);
+    box-shadow: inset 0px -65px 18px 0px rgba(0 0 0 / 45%);    
+    
+}
+
+.sombra-transition {
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+
+
+/*rodape*/
+
+#rodape{
+    background: rgb(165, 198, 143);
+    padding: 10px 5px;
+}
+
+
+.direitos{
+    text-align: center;
+    font-weight: bold;
+    color: #144474; 
+} 
+
+
+
+/*Tipográfia*/
+
+article#home h1, section#carrosel h1{
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 15px #000000;    
+}
+
+article#home h3{
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 15px #000000;    
+}
+
+section#caracteristicas h4, section.conteudo h4{
+    color: #144474;
+    text-align: center;
+}
+
+section#caracteristicas p, section.conteudo p{
+    color: #000;
+    text-align: center;
+}
+
+
+/*formularios*/
+
+#formularios{
+    background: white;
+    margin-top: 80px;
+}
+
+
+/*Media Queries
+----------------------------------------------*/
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 250px) and (max-width: 575.99px) { 
+
+    article#home h1{
+        margin: 10px 15px;
+    }
+    
+    section#fotos .sombra{
+        width: 300px;
+        margin-left: 15px;
+        height: 300px;        
+    }
+    section#fotos .ajustes .transtionSize img{
+        margin-bottom: 20px;
+    }
+
+    section#fotos .ajustes .transtionSize .sombra .font-weight-bold{
+        margin-top: 250px;
+    } 
+
+    section#formularios img{
+        width: 200px;
+    } 
+    
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    article#home h1, section#carrosel h1{
+        font-size: 3em;
+    }    
+
+    section#fotos .sombra{
+        width: 300px;        
+        margin-left: 105px;
+        height: 300px;        
+           
+    } 
+   
+    section#fotos .ajustes .transtionSize img{
+        margin-bottom: 20px;
+    }
+
+    section#fotos .ajustes .transtionSize .sombra .font-weight-bold{
+        margin-top: 250px;
+    }
+    
+    section#formularios img{
+        width: 250px;
+    } 
+
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.99px){
+
+    article#home h1{
+        font-size: 4em;
+    } 
+    
+    section#fotos .sombra{
+        width: 150px;        
+    }
+
+    section#formularios img{
+        margin-top: 50%;
+        margin-bottom: 50%;
+        width: 350px;        
+    } 
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    article#home h1{
+        font-size: 5em;
+    }    
+
+    section#fotos .sombra{
+        width: 210px;        
+    }
+
+    section#fotos .ajustes .transtionSize .sombra .font-weight-bold{
+        margin-bottom: 270px;
+    } 
+
+    section#formularios img{
+        margin-top: 50%;
+        margin-bottom: 50%;
+        width: 400px;        
+    } 
+
+}
+    
+/*// Extra large devices (large desktops, 1200px and up)*/
+    
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+    article#home h1{
+        font-size: 6em;
+    }
+
+    section#fotos .sombra{
+        width: 255px;        
+    }
+}
+
+/*// XX large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+    article#home h1{
+        font-size: 6em;
+    }   
+}
+
+
+
+
+
+
+
+
+   

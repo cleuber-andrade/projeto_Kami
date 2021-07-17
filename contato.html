@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -69,22 +69,22 @@
                         <img src="img/conversa.jpg" width="500">
                     </div>
                     <div class="col-md-6">
-                        <form>
+                        <form method="POST" action="#">
                             <fieldset>
                                 <legend class="mb-4 mt-4">Deixe sua Sugestão, Crítica ou Encomenda</legend>
                                     <div class="form-group">
                                         <label for="name">Nome Completo:</label>
-                                        <input class="form-control form-control-lg" type="text" nome="name" id="name" placeholder="Digite seu nome">
+                                        <input class="form-control form-control-lg" type="text" nome="name" id="name" placeholder="Digite seu nome" required>
                                     </div>                               
                                 
                                 <div class="form-group">
                                     <label for="email">Email:</label>
-                                    <input class="form-control form-control-lg" type="text" name="email" id="email" placeholder="exemplo@...">
+                                    <input class="form-control form-control-lg" type="text" name="email" id="email" placeholder="exemplo@..." required>
                                 </div>
 
                                 <div class="form-group">
                                         <label for="estados">Estado:</label>
-                                        <select class="form-control" name="estados" id="estados">
+                                        <select class="form-control" name="estados" id="estados" required>
                                             <option value="#">Selecione seu Estado</option>
                                             <option value="ES">Espirito Santo</option>
                                             <option value="MG">Minas Gerais</option>
@@ -94,14 +94,13 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="mensagem">Mensagem:</label>
-                                        <textarea class="form-control" name="mensagem" id="mensagem" rows="6" placeholder="Digite sua sugestão"></textarea>
+                                        <textarea class="form-control" name="mensagem" id="mensagem" rows="6" placeholder="Digite sua sugestão" required></textarea>
 
                                     </div>
-
                                     <div class="form-group">
                                         <label for="arquivo">Anexar Arquivos:</label>
-                                        <input class="form-control-file" type="file" id="arquivo">
-                                    </div>
+                                        <input class="form-control-file" type="file" id="arquivo" name="arquivo">
+                                    </div>                                 
 
                                     <input class="btn btn-success mb-4" type="submit" value="Enviar">
                             </fieldset>

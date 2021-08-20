@@ -29,7 +29,7 @@ Desenvolvimento site para empresa Kami no Mori.
 
  <img src="https://github.com/cleuber-andrade/projeto_Kami/blob/main/img/kami.jpg" alt="Tela Principal">
  
-## 💻 Link para acessar site no GitHubPages
+## :globe_with_meridians: Link para acessar site no GitHubPages
 
 Para visualizar o site no GitHubPages <a href="https://cleuber-andrade.github.io/projeto_Kami/" target="_blank">Clique aqui</a>
 

@@ -26,7 +26,7 @@ Desenvolvimento site para empresa Kami no Mori.
 
 ## :pager: Tela principal do Kami no Mori 
 
- <img src="img/darktheme.jpg" alt="Tela Principal">
+ <img src="https://github.com/cleuber-andrade/projeto_Kami/blob/main/img/kami.jpg" alt="Tela Principal">
 
  # 👷 Como rodar
 

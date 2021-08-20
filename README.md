@@ -29,7 +29,7 @@ Desenvolvimento site para empresa Kami no Mori.
 
  <img src="https://github.com/cleuber-andrade/projeto_Kami/blob/main/img/kami.jpg" alt="Tela Principal">
 
- # 👷 Como rodar
+## 👷 Como rodar
 
 ```bash
 # Clonar o repositório

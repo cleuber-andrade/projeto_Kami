@@ -11,6 +11,7 @@ Meu primeiro projeto autoral. Site desenvolvido para a marcenaria Kami no Mori.
 ```bash
 Desenvolvimento site para empresa Kami no Mori.
 
+-Aplicação de Responsividade do site, utilizando Media Queries
 -Aplicar conhecimentos em Bootstrap;
 -Aprimorar os conhecimentos em HTML e CSS;
 
